@@ -1,0 +1,145 @@
+html {
+    font-family: "Be Vietnam Pro", serif;
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(resources/bg-pattern.png);
+    background-color: #E5E7EB;
+}
+.title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.sub-title {
+    font-size: 1rem;
+    color: #4D5562;
+    width: 100%;
+    align-self: center;
+}
+.title,.sub-title {
+    text-align: center;
+}
+
+.container {
+    background-color: #F8FAFC;
+    padding: 5%;
+    margin-top: 2rem;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+th {
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 0;
+}
+
+th p:first-child {
+    color: #263FA9;
+    font-size: 1rem;
+}
+.price {
+    font-size: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+th p:last-child {
+    font-size: 1rem;
+    color: #4D5562;
+    font-weight: 600;
+}
+tbody tr td {
+    height: 2.5rem;
+    border-bottom: 0.5px solid #4D556233;
+}
+tbody tr td:not(:first-child) {
+    text-align: center;
+    color: #4D5562
+}
+tbody tr td:first-child {
+    background-color: #E5E7EB;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.start-start-rounded {
+    border-start-start-radius: 15px;
+}
+.end-start-rounded {
+    border-end-start-radius: 15px;
+    border-bottom: 0;
+}
+
+thead th:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+th:nth-child(4), tbody tr td:nth-child(4) {
+    background-color: #121826;
+}
+thead th:nth-child(4) div {
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    background-color: #263FA9;
+}
+thead th:nth-child(4) h1, thead th:nth-child(4) p:first-child, thead th:nth-child(4) p:last-child, tbody tr td:nth-child(4) {
+    color: #FFFFFF
+}
+tfoot tr td {
+    height: 4rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+tfoot tr button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #263FA9;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+    border: 0;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+tfoot tr td:nth-child(4) {
+    background-color: #7C4F1E
+}
+tfoot tr td:nth-child(4) button {
+    color: #FFFFFF
+}
+
+tfoot tr td:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05) translateY(-5px);
+}
+@media only screen and (max-width:1024px) {
+    th:nth-child(2), tbody td:nth-child(2), tfoot td:nth-child(2) {
+        display:none
+    }
+}
+@media only screen and (max-width:640px) {
+    th:nth-child(n+2):nth-child(-n+3), tbody td:nth-child(n+2):nth-child(-n+3), tfoot td:nth-child(n+2):nth-child(-n+3) {
+        display:none
+    }
+    th,td {
+        overflow: hidden;
+    }
+}
